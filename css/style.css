@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
+
 :root {
     --backgroung-page-color: #e5e5e5;
     --brand-color-primary: #2196f3;
@@ -12,6 +13,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color-secondary);
     background-color: var(--background-page-color);
+    width: 1600px;
+    margin: 0 auto;
 }
 a:hover {
     color: #2196f3;
@@ -56,8 +59,7 @@ menu {position: absolute;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    padding-left: 215px;
-    padding-top: 24px;
+    padding: 24px 1240px 25px 215px;
 }
 .logo2 { color: #ffffff;
     font-family: Raleway;
@@ -191,6 +193,8 @@ h3 {
 .section-background {
     background: #2f303a;
 }
-.container {display: flex;
+.container {box-sizing: border-box;
     width: 1200px;
     }
+
+padding-contacs {display: flex; flex-direction: row-reverse;}
