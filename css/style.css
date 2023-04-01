@@ -71,6 +71,7 @@ menu {
     max-width: 1600px;
     height: 80px;
     background: #ffffff;
+    display: inline-flex;
 }
 
 
@@ -83,7 +84,8 @@ menu {
     text-decoration: none;
     padding: 24px 1240px 25px 215px;
     letter-spacing: 0.03em;
-    align-items: baseline;
+    display: flex;
+    flex-direction: row;
 }
 .logo2 {
     color: #ffffff;
@@ -240,6 +242,7 @@ h3 {
 .container2 {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
 }
 
 .container3 {
@@ -251,15 +254,18 @@ h3 {
 nav-list {
     display: flex;
     padding: 25px;
+    flex-direction: row;
 }
 nav-list1 {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .navigation-list {
     align-items: baseline;
     display: flex;
+    flex-direction: row;
     gap: 46px;
     list-style-type: none;
     max-width: 254px;
@@ -331,6 +337,6 @@ nav-list1 {
     border: #757575;
 }
 .div {display: inline-block}
-lorem-header {display: ;}
-text-ipsum {display: ;}
+lorem-header {display: inline-flex;}
+text-ipsum {display: inline-flex ;}
 .lorem-list {display: inline-flex;}
