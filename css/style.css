@@ -3,7 +3,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 :root {
     --backgroung-page-color: #e5e5e5;
@@ -19,20 +19,23 @@ body {
     background-color: var(--background-page-color);
     max-width: 1600px;
     margin: 0 auto;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
 }
-img {display: block;}
+img {
+    display: block;
+}
 
-footer {max-width: 1600px;
+footer {
+    max-width: 1600px;
     max-height: 252px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0;}
+    padding: 0;
+}
 a:hover {
     color: #2196f3;
 }
@@ -63,7 +66,8 @@ span {
     color: #2196f3;
     font-size: 26px;
 }
-menu {position: absolute;
+menu {
+    position: absolute;
     max-width: 1600px;
     height: 80px;
     left: 0px;
@@ -81,12 +85,14 @@ menu {position: absolute;
     padding: 24px 1240px 25px 215px;
     letter-spacing: 0.03em;
 }
-.logo2 { color: #ffffff;
+.logo2 {
+    color: #ffffff;
     font-family: Raleway;
     font-weight: 700px;
     font-size: 26px;
     line-height: 1.2;
-    text-decoration: none;}
+    text-decoration: none;
+}
 
 button {
     cursor: pointer;
@@ -206,7 +212,8 @@ h3 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.text-ipsum { font-family: "Roboto";
+.text-ipsum {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -214,44 +221,60 @@ h3 {
     letter-spacing: 0.03em;
     color: #757575;
 }
-.section-background {
+.section-background { margin: 0;
     background: #2f303a;
 }
-.container {margin: 0 auto;
+.footer-down {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;}
+.container {
+    margin: 0 auto;
     max-width: 1200px;
     width: 100%;
     padding: 0 15px;
-    }
-.container2 {display: flex;
-	align-items: baseline;}
-
-.container3 {display: flex;
-	justify-content: center;
-	align-items: center;
+}
+.container2 {
+    display: flex;
+    align-items: baseline;
 }
 
-.nav-list {display: flex;
-padding: 25px;}
-.nav-list1 {display: flex;
-    align-items: center;}
+.container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.navigation-list {display: flex;
-gap: 46px;
-list-style-type: none;
-max-width: 254px;
-max-height: 16px;
-margin-right: 371px;
-padding: 32px 1094px 32px 453px;
-align-items: baseline;}
+.nav-list {
+    display: flex;
+    padding: 25px;
+}
+.nav-list1 {
+    display: flex;
+    align-items: center;
+}
 
-.email {position: absolute;
+.navigation-list {
+    display: flex;
+    gap: 46px;
+    list-style-type: none;
+    max-width: 254px;
+    max-height: 16px;
+    margin-right: 371px;
+    padding: 32px 1094px 32px 453px;
+    align-items: baseline;
+}
+
+.email {
+    position: absolute;
     max-width: 135px;
     max-height: 16px;
     left: 1078px;
     top: 32px;
     letter-spacing: 0.02em;
     align-items: baseline;
-    }
+}
 
 .phone {
     position: absolute;
@@ -260,29 +283,48 @@ align-items: baseline;}
     left: 1263px;
     top: 32px;
     letter-spacing: 0.02em;
-    align-items: baseline;}
+    align-items: baseline;
+}
 
-.content {display: flex;
-flex-direction: column;
-align-items: center;}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.center-pad {padding-top: 200px;}
+.center-pad {
+    padding-top: 200px;
+}
 
-.img-cont1 {order: 1;
+.img-cont1 {
+    order: 1;
     display: flex;
     box-sizing: content-box;
     padding: 0px 15px 0px 30px;
-flex-shrink: 0;
+    flex-shrink: 0;
 }
-.img-cont2 {order: 2;
+.img-cont2 {
+    order: 2;
     display: flex;
     box-sizing: content-box;
     padding: 0px 15px 0px 15px;
-flex-shrink: 0;}
-.img-cont3 {order: 3;
+    flex-shrink: 0;
+}
+.img-cont3 {
+    order: 3;
     display: flex;
     box-sizing: content-box;
     padding: 0px 30px 0px 15px;
-flex-shrink: 0;}
-.section {margin-top: 94px;}
-.header-border {border-bottom: 1px solid #ECECEC;}
+    flex-shrink: 0;
+}
+.section {
+    margin-top: 94px;
+    padding: 0;
+}
+.header-border {
+    border-bottom: 1px solid #ececec;
+}
+.display {display: inline;
+    border: #757575;
+  
+}
