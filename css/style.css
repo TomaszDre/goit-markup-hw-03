@@ -249,6 +249,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px;
+    margin-left: 215px;
 }
 
 nav-list {
@@ -335,8 +337,14 @@ nav-list1 {
 }
 .display {display: inline;
     border: #757575;
+    margin: 30px;
+margin-left: 215px;
+margin-right: 215px;
 }
-.div {display: inline-block}
+.div {display: inline-block;
+}
 lorem-header {display: inline-flex;}
 text-ipsum {display: inline-flex ;}
-.lorem-list {display: inline-flex;}
+.lorem-list {display: inline-flex;
+margin: 30px;
+}
