@@ -16,38 +16,41 @@
 
     </style>
     <body>
-        <header>
-            <a
+        <header class="menu section container">
+        <div class="top-line">
+            <div>
+                <a
                 href="https://tomaszdre.github.io/goit-markup-hw-03/"
                 class="logo"
-                ><span>Web</span>Studio</a>
-            <nav>
-                <ul>
+                ><span>Web</span><span class="studio-black">Studio</span></a
+            > 
+           </div>
+           <nav>
+                <ul class="navigation-list container">
                     <li><a href="index.html" class="decoration">Agencja</a></li>
-                    <li><a href="#" class="decoration">Portfolio</a></li>
-                    <li><a href="#" class="decoration">Kontakty</a></li>
+                    <li><a href="./portfolio.html" class="decoration">Portfolio</a></li>
+                    <li><a href="/kontakt" class="decoration">Kontakt</a></li>
                 </ul>
             </nav>
-            <ul>
-                <li>
-                    <a href="mailto:info@devstudio.com" class="contacs">info@devstudio.com</a>
-                </li>
-                <li><a href="tel:+48111111111" class="contacs">+48111111111</a></li>
-            </ul>
+            <div class="contacts-top-line">
+                <a href="mailto:info@devstudio.com" class="contacs email">info@devstudio.com</a>
+                <a href="tel:+48111111111" class="contacs phone">+48111111111</a>
+            </div>
+        </div>
         </header>
         <main>
             <section >
-                <ul class="lorem-list">
+                <ul class="buttons-portfolio">
                     <li>
-                <button type="button" class="font">Wszystkie</button></li>
+                <button type="button" class="button-portfolio">Wszystkie</button></li>
                 <li>
-                <button type="button" class="font">Strony</button></li>
+                <button type="button" class="button-portfolio">Strony</button></li>
                 <li>
-                <button type="button" class="font">Aplikacje</button></li>
+                <button type="button" class="button-portfolio">Aplikacje</button></li>
                 <li>
-                <button type="button" class="font">Dizajn</button></li>
+                <button type="button" class="button-portfolio">Dizajn</button></li>
                 <li>
-                <button type="button" class="font">Marketing</button></li>
+                <button type="button" class="button-portfolio">Marketing</button></li>
                 </ul>
             </section>
             <section class="wrap">
@@ -60,8 +63,8 @@
                             alt="Technocrack"
                         />
                         <figcaption>
-                            <p class="font-image">Technocrack</p>
-                            <p class="font-image1">Strona internetowa</p>
+                            <h4>Technocrack</p>
+                            <p>Strona internetowa</p>
                         </figcaption>
                     </figure>
                     <figure class="header-border">
@@ -72,8 +75,8 @@
                     alt="Grafika New Orlean vs Golden Star"
                 />
                 <figcaption>
-                    <p class="font-image">Grafika New Orlean vs Golden Star</p>
-                    <p class="font-image1">Dizajn</p>
+                    <h4>Grafika New Orlean vs Golden Star</p>
+                    <p>Dizajn</p>
                 </figcaption>
                     </figure>
                     <figure class="header-border">
@@ -84,8 +87,8 @@
                     alt="Restauracja Seafood"
                 />
                 <figcaption>
-                    <p class="font-image">Restauracja Seafood</p>
-                    <p class="font-image1">Aplikacja</p>
+                    <h4>Restauracja Seafood</p>
+                    <p>Aplikacja</p>
                 </figcaption>
                     </figure>
                 </ul>
@@ -167,16 +170,17 @@
                 </ul>
             </section>
             </div>
-            <footer class="section-background footer-down">
-            <a
-                href="https://tomaszdre.github.io/goit-markup-hw-03/"
-                class="logo"
-                ><span>Web</span><span class="logo2">Studio</span></a>
-        <address>
-        <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@example.com" class="footer-address">info@example.com</a><br />
-        <a href="tel:+48111111111" class="footer-address">+48111111111</a>
-    </address>
-</footer>
+            <footer class="section background-footer footer-down">
+            <div class="container">
+            <a class="logo" href="index.html"
+          ><span>Web</span><span class="logo studio-white">Studio</span></a>
+
+            <address>
+                <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p>
+                <a href="mailto:info@example.com" class="footer-address">info@example.com</a><br />
+                <a href="tel:+48111111111" class="footer-address">+48 111 111 111</a>
+            </address>
+            </div>
+        </footer>
     </body>
 </html>

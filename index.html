@@ -16,40 +16,41 @@
         
     </head>
     <body>
-        <header class="menu">
-        <div class="container container header-border">
-            <a
+        <header class="menu section container">
+        <div class="top-line">
+            <div>
+                <a
                 href="https://tomaszdre.github.io/goit-markup-hw-03/"
                 class="logo"
-                ><span>Web</span>Studio</a
-            >
-            <nav class="nav-list">
-                <ul class="navigation-list nav-list1">
+                ><span>Web</span><span class="studio-black">Studio</span></a
+            > 
+           </div>
+           <nav>
+                <ul class="navigation-list container">
                     <li><a href="index.html" class="decoration">Agencja</a></li>
                     <li><a href="./portfolio.html" class="decoration">Portfolio</a></li>
                     <li><a href="/kontakt" class="decoration">Kontakt</a></li>
                 </ul>
             </nav>
-            <ul>
-                
-                    <a href="mailto:info@devstudio.com" class="contacs email">info@devstudio.com</a>
+            <div class="contacts-top-line">
+                <a href="mailto:info@devstudio.com" class="contacs email">info@devstudio.com</a>
                 <a href="tel:+48111111111" class="contacs phone">+48111111111</a>
-            </ul>
+            </div>
         </div>
         </header>
         <main>
             <section class="section-background section">
                 <div class="container content">
-                <h1 class="center-text center-pad">EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU</h1>
-                <button type="button" class="button">Zamów usługę</button>
+                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <button type="button" class="button zamow-usluge">Zamów usługę</button>
             </div>
-            </section>
+        </section>
             <section class="section">
                 <div class="container">
                 <ul class="lorem-list">
                     <li>
                         <h3 class="lorem-header">LOREM IPSUM</h3>
-                        <p class="text-ipsum">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
@@ -57,7 +58,7 @@
                     </li>
                     <li>
                         <h3>LOREM IPSUM</h3>
-                        <p class="text-ipsum">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
@@ -65,7 +66,7 @@
                     </li>
                     <li>
                         <h3>LOREM IPSUM</h3>
-                        <p class="text-ipsum">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
@@ -73,7 +74,7 @@
                     </li>
                     <li>
                         <h3>LOREM IPSUM</h3>
-                        <p class="text-ipsum">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
@@ -83,103 +84,119 @@
                 </div>
             </section>
             <section class="section">
-            <div class="container">
-                <h2 class="center-text2">Czym się zajmujemy</h2>
-
-            <div class="container3">
-                <img class="img-cont1"
+            <div class="container what-we-do-background">
+                <h2>Czym się zajmujemy</h2>
+                <div class="container">
+                    <ul class="what-we-do">
+    <li><img class="img-cont1"
                     src="./images/img3.jpg"
                     width="370"
                     height="294"
                     alt="Kodowanie programu"
-                />
-                <img class="img-cont2"
+                /></li>
+    <li><img class="img-cont2"
                     src="./images/img2.jpg"
                     width="370"
                     height="294"
                     alt="Testowanie aplikacji mobilnej"
-                />
-                <img class="img-cont3"
+                /></li>
+    <li><img class="img-cont3"
                     src="./images/img1.jpg"
                     width="370"
                     height="294"
                     alt="Projektowanie stron internetowych"
-                />
+                /></li>
+</ul>
+</div>
+
                 </div>
             </section>
-            <section class="section display">
-                <h2 class="center-text2">Nasz Zespół</h2>
-                <div class="div">
-                <figure>
-                    <img
+
+            <section class="section our-team-background container">
+                <h2>Nasz Zespół</h2>
+                <div class="our-team-cards container">
+                    <ul class="our-team container">
+              <li>
+                <figure class="team-card">
+                  <img
                         src="./images/img11.jpg"
                         width="270"
                         height="260"
                         alt="Product Designer"
                     />
                     <figcaption>
-                        <p class="text-jd">John Doe</p>
-                        <p class="text-jd2">Product Designer</p>
+                        <h4>John Doe</p>
+                        <p>Product Designer</p>
                     </figcaption>
                 </figure>
-            </div>
-            <div class="div">
-                <figure>
-                    <img
+              </li>
+              <li>
+                <figure class="team-card">
+                  <img
                         src="./images/img22.jpg"
                         width="270"
                         height="260"
                         alt="Frontend Developer"
                     />
                     <figcaption>
-                        <p class="text-jd">John Doe</p>
-                        <p class="text-jd2">Frontend Developer</p>
+                        <h4>John Doe</p>
+                        <p>Frontend Developer</p>
                     </figcaption>
                 </figure>
-            </div>
-            <div class="div">
-                <figure>
-                    <img
+              </li>
+              <li>
+                <figure class="team-card">
+                  <img
                         src="./images/img33.jpg"
                         width="270"
                         height="260"
                         alt="Marketing"
                     />
                     <figcaption>
-                        <p class="text-jd">John Doe</p>
-                        <p class="text-jd2">Marketing</p>
+                        <h4>John Doe</p>
+                        <p>Marketing</p>
                     </figcaption>
                 </figure>
-            </div>
-            <div class="div">
-                <figure>
-                    <img
+              </li>
+              <li>
+              <figure class="team-card">
+                  <img
                         src="./images/img44.jpg"
                         width="270"
                         height="260"
                         alt="UI Designer"
                     />
                     <figcaption>
-                        <p class="text-jd">John Doe</p>
-                        <p class="text-jd2">UI Designer</p>
+                        <h4>John Doe</p>
+                        <p>UI Designer</p>
                     </figcaption>
+                </figure>
+              </li>
+          </ul>
+
+
+
+
+       
                 </figure>
             </div>
             </section>
         </div>
         </main>
-        <footer class="section-background footer-down">
+
+        <footer class="section background-footer footer-down">
             <div class="container">
-            <a
-                href="https://tomaszdre.github.io/goit-markup-hw-03/"
-                class="logo"
-                ><span>Web</span><span class="logo2">Studio</span></a>
+            <a class="logo" href="index.html"
+          ><span>Web</span><span class="logo studio-white">Studio</span></a>
+
             <address>
                 <p class="address">m. Warszawa, Aleje Jerozolimskie 21</p>
                 <a href="mailto:info@example.com" class="footer-address">info@example.com</a><br />
-                <a href="tel:+48111111111" class="footer-address">+48111111111</a>
+                <a href="tel:+48111111111" class="footer-address">+48 111 111 111</a>
             </address>
             </div>
         </footer>
     </body>
 </html>
+
+
