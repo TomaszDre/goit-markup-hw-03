@@ -123,6 +123,7 @@ button:active {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    
 }
 .font-image {
     font-style: normal;
@@ -326,5 +327,5 @@ h3 {
 }
 .display {display: inline;
     border: #757575;
-  
 }
+.div {display: inline-block}
