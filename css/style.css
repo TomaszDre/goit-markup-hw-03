@@ -345,6 +345,13 @@ margin-right: 215px;
 }
 lorem-header {display: inline-flex;}
 text-ipsum {display: inline-flex ;}
+
 .lorem-list {display: inline-flex;
+    justify-content:center;
 margin: 30px;
+list-style: none;
+}
+.wrap {display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
