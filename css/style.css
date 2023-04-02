@@ -97,14 +97,15 @@ h4 {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-h5 {font-family: 'Roboto';
+h5 {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
-    }
+}
 
 a:hover,
 :focus {
@@ -344,7 +345,6 @@ text-ipsum {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--inactive-header-contact-link);
-    
 }
 
 /* PORTFOLIO */
@@ -369,25 +369,25 @@ text-ipsum {
     height: 38px;
     background: #f5f4fa;
     border-radius: 4px;
-    
 }
 
 .wrap {
     display: flex;
     gap: 30px;
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
-    
 }
-.header-border {box-sizing: border-box;
+.header-border {
+    box-sizing: border-box;
     font-size: 18px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;}
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
 
-.p {font-family: 'Roboto';
+.p {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;}
+    color: #757575;
+}
