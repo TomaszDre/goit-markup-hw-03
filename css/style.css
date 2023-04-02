@@ -39,6 +39,10 @@ body {
     padding: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 p {
     font-family: "Roboto";
     font-style: normal;
@@ -90,9 +94,17 @@ h4 {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
+h5 {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    }
 
 a:hover,
 :focus {
@@ -151,7 +163,7 @@ menu {
     color: var(--brand-color-white);
 }
 
-.top-line { 
+.top-line {
     border-bottom: #ececec 1px solid;
     display: flex;
     flex-direction: row;
@@ -203,10 +215,6 @@ menu {
 }
 
 /* ZAMÓW USUGĘ */
-
-.button {
-    cursor: pointer;
-}
 
 .decoration {
     font-style: normal;
@@ -287,7 +295,9 @@ text-ipsum {
 
 /* EFEKTYWNE  */
 
-.zamow-usluge {border: none;}
+.zamow-usluge {
+    border: none;
+}
 .content {
     justify-content: space-around;
     display: flex;
@@ -324,7 +334,8 @@ text-ipsum {
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin: 0;
-    padding: 0;
+    margin-bottom: 94px;
+    padding: 0px;
 }
 
 .our-team-card-description {
@@ -333,6 +344,7 @@ text-ipsum {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--inactive-header-contact-link);
+    
 }
 
 /* PORTFOLIO */
@@ -353,14 +365,29 @@ text-ipsum {
     letter-spacing: 0.03em;
     color: #212121;
     border: none;
-
     width: 121px;
     height: 38px;
     background: #f5f4fa;
     border-radius: 4px;
+    
 }
 
 .wrap {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    
 }
+.header-border {box-sizing: border-box;
+    font-size: 18px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;}
+
+.p {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;}
