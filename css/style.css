@@ -32,11 +32,11 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--brand-color-secondary);
     background-color: var(--background-page-color);
-    max-width: 1600px;
     margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
+    
 }
 
 button {
@@ -290,7 +290,7 @@ menu {
 
 /* EFEKTYWNE  */
 
-.zamow-usluge {
+.order-service {
     border: none;
 }
 .content {
