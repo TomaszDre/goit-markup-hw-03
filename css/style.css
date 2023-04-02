@@ -15,7 +15,7 @@ margin: -94px; */
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0 15px;
+    padding: 15px;
 }
 
 :root {
@@ -97,6 +97,7 @@ h4 {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
 h5 {
     font-family: "Roboto";
     font-style: normal;
@@ -136,7 +137,7 @@ button:hover {
 
 menu {
     display: flex;
-    height: 80px;
+    max-height: 80px;
     background-color: var(--brand-color-default);
 }
 
@@ -170,6 +171,7 @@ menu {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    max-height: 80px;
 }
 /* NAVIGATION */
 
@@ -228,14 +230,6 @@ menu {
 }
 
 /* LOREM IPSUM */
-
-lorem-header {
-    display: inline-flex;
-}
-
-text-ipsum {
-    display: inline-flex;
-}
 
 .lorem-list {
     display: inline-flex;
@@ -350,8 +344,8 @@ text-ipsum {
 /* PORTFOLIO */
 
 .buttons-portfolio {
+    padding-top: 50px;
     display: flex;
-
     justify-content: center;
     gap: 8px;
 }
@@ -379,7 +373,7 @@ text-ipsum {
     box-sizing: border-box;
     font-size: 18px;
     background: #ffffff;
-    border: 1px solid #eeeeee;
+    margin: 30px;
 }
 
 .p {
@@ -390,4 +384,17 @@ text-ipsum {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.border-caption {
+    max-height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
 }
