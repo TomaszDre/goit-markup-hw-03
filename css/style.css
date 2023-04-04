@@ -15,7 +15,7 @@ margin: -94px; */
 .container {
     margin: 0 auto;
     margin-top: 5px;
-    max-width: 1200px;
+    width: 1200px;
     padding: 0px;
     flex-wrap: wrap;
 }
@@ -135,9 +135,9 @@ button:hover {
     border-radius: 4px;
 }
 
-menu {
+.menu {
     display: flex;
-    max-height: 80px;
+    height: 80px;
     background-color: var(--brand-color-default);
 }
 
@@ -153,7 +153,6 @@ menu {
     letter-spacing: 0.03em;
     width: 145px;
     height: 31px;
-    margin-left: 50px;
     text-decoration: none;
     color: var(--brand-color-primary);
 }
@@ -168,6 +167,7 @@ menu {
 
 .top-line {
     border-bottom: #ececec 1px solid;
+    max-width: 1600px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -185,12 +185,15 @@ menu {
     max-width: 261px;
     max-height: 16px;
     gap: 46px;
+    margin-right: 0px;
+    margin-left: 53px;
+
 }
 
 .contacts-top-line {
     display: flex;
     gap: 50px;
-    margin-left: 371px;
+    margin-left: 391px;
 }
 
 .email {
@@ -248,12 +251,13 @@ menu {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding: 0px;
 }
 
 .what-we-do-background {
     display: flex;
     flex-direction: column;
-    gap: 50;
+    gap: 50px;
 }
 
 .address {
@@ -309,7 +313,7 @@ menu {
     display: flex;
     background-color: var(--brand-color-ordinary);
     flex-direction: column;
-    gap: 50px;
+    max-width: 1900px;
 }
 
 .our-team-cards {
@@ -344,8 +348,11 @@ menu {
 
 /* PORTFOLIO */
 
+.pad-but {padding-top: 30px;}
+
 .buttons-portfolio {
-    padding-top: 50px;
+    padding-top: 94px;
+    padding-bottom: 0px;
     display: flex;
     justify-content: center;
     gap: 8px;
@@ -376,7 +383,7 @@ menu {
     box-sizing: border-box;
     font-size: 18px;
     background: #ffffff;
-    margin: 30px;
+    margin: 0px;
 }
 
 .p {
