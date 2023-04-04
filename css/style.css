@@ -187,7 +187,6 @@ button:hover {
     gap: 46px;
     margin-right: 0px;
     margin-left: 53px;
-
 }
 
 .contacts-top-line {
@@ -348,7 +347,10 @@ button:hover {
 
 /* PORTFOLIO */
 
-.pad-but {padding-top: 30px;}
+.pad-but {
+    padding-top: 30px;
+    padding-left: 90px;
+}
 
 .buttons-portfolio {
     padding-top: 94px;
