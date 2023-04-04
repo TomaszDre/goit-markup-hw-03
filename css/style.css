@@ -153,6 +153,7 @@ menu {
     letter-spacing: 0.03em;
     width: 145px;
     height: 31px;
+    margin-left: 50px;
     text-decoration: none;
     color: var(--brand-color-primary);
 }
@@ -189,6 +190,7 @@ menu {
 .contacts-top-line {
     display: flex;
     gap: 50px;
+    margin-left: 371px;
 }
 
 .email {
@@ -399,4 +401,6 @@ menu {
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
 }
-.no-gap {display: block;}
+.no-gap {
+    display: block;
+}
