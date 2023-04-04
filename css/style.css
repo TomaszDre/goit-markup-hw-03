@@ -14,8 +14,10 @@ margin: -94px; */
 
 .container {
     margin: 0 auto;
+    margin-top: 5px;
     max-width: 1200px;
-    padding: 15px;
+    padding: 0px;
+    flex-wrap: wrap;
 }
 
 :root {
@@ -34,7 +36,6 @@ body {
     background-color: var(--background-page-color);
     margin: 0 auto;
     flex-direction: row;
-    flex-wrap: wrap;
     padding: 0;
 }
 
@@ -171,6 +172,7 @@ menu {
     justify-content: space-between;
     align-items: baseline;
     max-height: 80px;
+    margin: 0 auto;
 }
 /* NAVIGATION */
 
@@ -179,7 +181,8 @@ menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 254px;
+    max-width: 261px;
+    max-height: 16px;
     gap: 46px;
 }
 
@@ -274,17 +277,14 @@ menu {
 }
 
 .container2 {
-    display: flex;
-    align-items: baseline;
-    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 1600px;
+    padding: 0px;
 }
 
 .container3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-    margin-left: 215px;
+    margin-top: -40px;
 }
 
 /* EFEKTYWNE  */
@@ -321,7 +321,7 @@ menu {
     gap: 30px;
 }
 .team-card {
-    background-color: var(--white-text);
+    background-color: var(--brand-color-white);
     width: 270px;
     height: 368px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -366,8 +366,9 @@ menu {
 
 .wrap {
     display: flex;
-    gap: 30px;
+    gap: 25px;
     margin-left: 280px;
+    flex-wrap: wrap;
 }
 .header-border {
     box-sizing: border-box;
@@ -398,3 +399,4 @@ menu {
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
 }
+.no-gap {display: block;}
