@@ -14,7 +14,6 @@ margin: -94px; */
 
 .container {
     margin: 0 auto;
-    margin-top: 5px;
     width: 1200px;
     padding: 0px;
     flex-wrap: wrap;
@@ -171,9 +170,10 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     max-height: 80px;
     margin: 0 auto;
+    padding: 15px 0;
 }
 /* NAVIGATION */
 
@@ -241,6 +241,7 @@ button:hover {
     display: inline-flex;
     justify-content: center;
     gap: 30px;
+    padding: 0;
 }
 
 /* WHAT WE DO */
@@ -257,6 +258,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding-bottom: 94px;
 }
 
 .address {
